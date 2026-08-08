@@ -6,3 +6,4 @@ print("main.py 执行完成")
 
 print("git版本测试")
 
+print("暂存区测试")
