@@ -1,5 +1,5 @@
 from agent import Agent
-print("main.py 执行完成")
+print("main.py main")
 
 #name = input("请输入你的名字：")
 #print("你好，",name)
