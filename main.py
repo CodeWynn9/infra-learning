@@ -1,10 +1,11 @@
-from agent import Agent
-print("main.py demo")
+from agent_app.api_client import APIClient
 
-#name = input("请输入你的名字：")
-#print("你好，",name)
+client = APIClient(
+	base_url="https://api.github.com"
+)
 
+data = client.get("/users/octocat")
 
+print(data["login"])
 
-print("这是demo")
-
+client.close()
